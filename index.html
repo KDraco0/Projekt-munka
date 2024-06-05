@@ -11,34 +11,101 @@
     <title>Nyári élmények</title>
 </head>
 <body>
-    <div class="container-fluid" id="kepek">
-        <div id="demo" class="carousel slide" data-ride="carousel">
-          
-          <ul class="carousel-indicators">
-            <li data-target="#demo" data-slide-to="0" class="active"></li>
-            <li data-target="#demo" data-slide-to="1"></li>
-            <li data-target="#demo" data-slide-to="2"></li>
-          </ul>      
-          
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="kepek/csopkepjobb.jpg" alt="Fiat 500" title="Fiat 500">
-            </div>
-            <div class="carousel-item">
-              <img src="kepek/belsöudvartanc.jpg" alt="NASA Apollo 11 Holdkomp" title="NASA Apollo 11 Holdkomp">
-            </div>
-            <div class="carousel-item">
-              <img src="kepek/csarnoki_tánc.jpg" alt="Ford Mustang" title="Ford Mustang">
-            </div>
-          </div>      
-          
-          <a class="carousel-control-prev" href="#demo" data-slide="prev">
-            <span class="carousel-control-prev-icon"></span>
-          </a>
-          <a class="carousel-control-next" href="#demo" data-slide="next">
-            <span class="carousel-control-next-icon"></span>
-          </a>
-        </div>
+  <!--Képlapozó sáv-->
+<div class="container-fluidS" id="kepek">
+  <div id="demo" class="carousel slide" data-ride="carousel">
+    
+    <ul class="carousel-indicators">
+      <li data-target="#demo" data-slide-to="0" class="active"></li>
+      <li data-target="#demo" data-slide-to="1"></li>
+      <li data-target="#demo" data-slide-to="2"></li>
+    </ul>      
+    
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="kepek/csopkepstage.png">
+      </div>
+      <div class="carousel-item">
+        <img src="kepek/csopkepjobb.png">
+      </div>
+      <div class="carousel-item">
+        <img src="kepek/csarnoki_tánc.png">
+      </div>
+    </div>      
+    
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+  </div>
+  <h1 class="d-none d-md-block">24h vetélkedő</h1>
+</div>
+
+<!--Menü-->
+<nav class="navbar navbar-expand-sm bg-dark navbar-light">
+  <ul class="navbar-nav font-weight-bold">
+    <li class="nav-item">
+        <a class="nav-link text-light" href="#idei24h">Idei 24h</a>
+    </li>
+
+    <li class="nav-item">
+      <a class="nav-link text-light" href="#24htörtenet">24h története</a>
+    </li>
+
+    <li class="nav-item">
+        <a class="nav-link text-light" href="#terkep">Térkép</a>
+    </li>
+    
+  </ul>
+</nav>
+<!--Idei 24h-->
+<h2 class="idei24h">Idei 24h</h2>
+<div>
+
+</div>
+<!--24h története-->
+  <h2 id="24htörtenet">24h története</h2>
+  <div class="row">
+    <div class="col-lg-8">
+      <p>Az ezredfordulón Szolnokon született meg az ötletgazda fejében a játék, mely a 24órás Vetélkedő „Aludj Máskor” nevet kapta. A vetélkedőn 50 fős csapatok huszonnégy órán át oldottak meg különböző feladatokat. A sikert követően a vetélkedő országos útra indult, az elmúlt húsz évben számos helyszínen több tízezer résztvevő játszott már az „Aludj Máskor”-on. Egyedi szerkezete, és képviselt értéke tette lehetővé, hogy jogvédett termékké váljon. Lajstromszám: 181 179</p>
+    
+    <h5><i>A vetélkedő eddigi helyszínei:</i></h5>
+    
+    <ul>
+    <li>Debrecen</li>
+    <li>Szolnok</li>
+    <li>Győr</li>
+    <li>Szombathely</li>
+    <li>Sopron</li>
+    <li>Pécs</li>
+    <li>Zalaegerszeg</li>
+    <li>Gyöngyös</li>
+    <li>Mezőkövesd</li>
+    <li>Mosonmagyaróvár</li>
+    <li>Nagybajom</li>
+    <li>Lenti</li>
+    <li>Sárvár</li>
+    </ul>
+    
+    <p>Tehát 13 helyszínen eddig összesen 84 alkalommal mozgatták meg az ifjúságot. Ez azt jelenti, hogy kb. 38.000 játékos vett részt a vetélkedőiken! Ha figyelembe vesszük, hogy a közvetlen résztvevőket rengetegen segítik a nézőtéren és a háttérből is így elmondhatják, hogy kb. 100.000 ember vett rész valamilyen formában a játékon.</p>
     </div>
+    <div class="col-lg-4" id="img">
+      <a href="https://24orasvetelkedo.hu/" target="_blank"><img src="kepek/24h_logo.png" alt="24h_logo" title="24h_logo" ></a>
+    </div>
+  </div>
+  <br>
+  <!--Térkép-->
+  <h2 id="terkep">Térkép</h2>
+  <div class="row">
+    <div class="col-lg-6">
+      <h6>A vetélkedő elhelyezkedése 2024-ben:</h6>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4516.446075741181!2d17.627020501249614!3d47.69422844650185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476bbfdf892bb4e1%3A0x6e68399d522cd38f!2sGy%C5%91r%20V%C3%A1rosi%20Egyetemi%20Csarnok%2C%20Gy%C5%91r%20(S1)!5e0!3m2!1shu!2shu!4v1717616091105!5m2!1shu!2shu" width="600" height="450" style="border:2px solid black;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div class="col-lg-6">
+      <img src="kepek/ESZK_Campus_Dron_14-m-1.jpg" alt="Széchenyi egyetem" width="600" height="450">
+    </div>
+  </div>
 </body>
 </html>
