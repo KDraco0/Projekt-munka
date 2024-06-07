@@ -59,3 +59,30 @@ a:hover{
     text-decoration: none;
     color: black;
 }
+
+@keyframes ficank {
+    0% {
+        transform: translate(0%, 0%);
+    }   
+    50% {
+        transform: translate(0%, 50%) scale(.9);
+    }
+    100% {
+        transform: translate(0%, 0%);
+    }
+}
+
+main .btt {
+    color: #fff;
+    position: fixed;
+    right: 24px;
+    bottom: 24px;
+    z-index: 10;
+    display: grid;
+    place-items: center;
+}
+
+main .btt:hover{
+    animation: ficank infinite ease-in-out 2s;
+    animation-delay: 3s;
+}
