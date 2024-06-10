@@ -71,8 +71,7 @@ a:hover{
         transform: translate(0%, 0%);
     }
 }
-
-main .btt {
+.btt {
     color: #fff;
     position: fixed;
     right: 24px;
@@ -82,7 +81,7 @@ main .btt {
     place-items: center;
 }
 
-main .btt:hover{
+.btt:hover{
     animation: ficank infinite ease-in-out 2s;
     animation-delay: 3s;
 }
